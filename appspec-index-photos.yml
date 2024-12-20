@@ -3,7 +3,7 @@ Resources:
   - myLambdaFunction:
       Type: AWS::Lambda::Function
       Properties:
-        Name: "YOUR_FUNCTION_NAME"
+        Name: "index-photos"
         Alias: "PROD"
         CurrentVersion: "1"
         TargetVersion: "2"
