@@ -5,5 +5,5 @@ Resources:
       Properties:
         Name: "search-photos"
         Alias: "dev"
-        CurrentVersion: "2"
-        TargetVersion: "3"
+        CurrentVersion: "3"
+        TargetVersion: "4"
