@@ -4,3 +4,6 @@ Resources:
       Type: AWS::Lambda::Function
       Properties:
         Name: "search-photos"
+        Alias: "dev"
+        CurrentVersion: "1"
+        TargetVersion: "1"
