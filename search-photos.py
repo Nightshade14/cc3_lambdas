@@ -4,6 +4,8 @@ import os
 from opensearchpy import OpenSearch, RequestsHttpConnection
 from requests_aws4auth import AWS4Auth
 
+print("##################### UPDATED BY CODE-PIPELINE")
+
 def get_slots(lex_response):
     slots = []
     if 'sessionState' in lex_response and 'intent' in lex_response['sessionState']:
