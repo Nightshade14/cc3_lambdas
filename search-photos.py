@@ -4,7 +4,7 @@ import os
 from opensearchpy import OpenSearch, RequestsHttpConnection
 from requests_aws4auth import AWS4Auth
 
-print("##################### UPDATED BY CODE-PIPELINE")
+print("##################### UPDATED BY CODE-PIPELINE 1")
 
 def get_slots(lex_response):
     slots = []
