@@ -4,8 +4,6 @@ import os
 from datetime import datetime
 from opensearchpy import OpenSearch, RequestsHttpConnection, OpenSearchException
 from requests_aws4auth import AWS4Auth
-from pprint import pprint
-import base64
 
 def get_awsauth(region):
     credentials = boto3.Session().get_credentials()
